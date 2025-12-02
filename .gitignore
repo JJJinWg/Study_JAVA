@@ -1,0 +1,12 @@
+# Compiled class files
+*.class
+
+# IDE and build tool folders (예시)
+.idea/
+.vscode/
+/bin/
+/out/
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
