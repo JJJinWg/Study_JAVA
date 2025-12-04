@@ -9,6 +9,6 @@ public class pb2588 {
         System.out.println(A * ((B / 10) % 10));
         System.out.println(A * (B / 100));
         System.out.println(A * B);
-        
+        in.close();
     }
 }

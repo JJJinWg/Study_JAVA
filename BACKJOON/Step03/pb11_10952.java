@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
-public class pb02_10950 {
+public class pb11_10952 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int T = in.nextInt();
-        in.close();
-        for (int i = 0; i < T; i++) {
+        while (true) {
             int A = in.nextInt();
             int B = in.nextInt();
-            System.out.println(A+B);
+            if (A == 0 && B == 0) {
+                break;
+            }
+            System.out.println(A + B);
         }
+        in.close();
     }
 }

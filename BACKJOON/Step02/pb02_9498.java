@@ -15,6 +15,7 @@ public class pb02_9498 {
         } else {
             System.out.println("F");
         }
+        in.close();
 
     }
 

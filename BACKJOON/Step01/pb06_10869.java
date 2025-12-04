@@ -6,7 +6,7 @@ public class pb06_10869 {
 		int A = in.nextInt();
 		int B = in.nextInt();
  
-        // in.close();
+        in.close();
  
 		System.out.println(A+B);
 		System.out.println(A-B);

@@ -10,6 +10,7 @@ public class pb10430 {
         System.out.println((A % C + B % C) % C);
         System.out.println((A * B) % C);
         System.out.println((A % C * B % C) % C);
+        in.close();
     }
 
 }
