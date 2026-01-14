@@ -6,6 +6,7 @@ public class pb02_10871 {
         int N = in.nextInt();
         int X = in.nextInt();
         int[] arr = new int[N];
+        in.close();
         for (int i = 0; i < N; i++) {
             arr[i] = in.nextInt();
             if (arr[i] < X) {
