@@ -6,7 +6,6 @@ public class pb04_25304 {
         int X = in.nextInt();
         int N = in.nextInt();
         int T = 0;
-        in.close();
         for (int i = 1; i <= N; i++) {
             int a = in.nextInt();
             int b = in.nextInt();
@@ -17,5 +16,6 @@ public class pb04_25304 {
         } else {
             System.out.println("No");
         }
+        in.close();
     }
 }

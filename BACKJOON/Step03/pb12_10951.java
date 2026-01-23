@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pb11_10951 {
+public class pb12_10951 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while (in.hasNextInt()) {
